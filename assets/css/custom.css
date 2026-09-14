@@ -572,6 +572,7 @@ button:focus-visible {
 .highlight-list li {
   display: grid;
   grid-template-columns: 64px 1fr;
+  align-items: center;
   gap: 1rem;
   padding: 1rem 0;
   border-bottom: 1px solid var(--line);
@@ -579,6 +580,8 @@ button:focus-visible {
 }
 
 .highlight-list li span {
+  display: block;
+  text-align: center;
   color: var(--green);
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.76rem;
