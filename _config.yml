@@ -4,10 +4,9 @@ tagline: Computational Mathematics
 description: Personal academic homepage of Lishuo Dong, a graduate student in computational mathematics.
 lang: en
 
-# This repository is currently a project site under lishuodong2003.github.io.
-# If it is renamed to lishuodong2003.github.io, set baseurl to "".
+# The site is published at the root GitHub Pages address.
 url: https://lishuodong2003.github.io
-baseurl: /lishuodong.github.io
+baseurl: ""
 repository: lishuodong2003/lishuodong.github.io
 
 owner:

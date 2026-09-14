@@ -21,7 +21,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-The current repository name makes this a GitHub Pages project site at `https://lishuodong2003.github.io/lishuodong.github.io/`. If you rename the repository to `lishuodong2003.github.io`, change `baseurl` in `_config.yml` to an empty string.
+The site is published at `https://lishuodong2003.github.io/`. Keep `baseurl` empty in `_config.yml` so page links and static assets resolve from that root address.
 
 ## Credits
 
