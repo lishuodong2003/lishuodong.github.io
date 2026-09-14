@@ -734,10 +734,6 @@ button:focus-visible {
   font-size: 0.76rem;
 }
 
-.footer-wrap .footer-note {
-  margin-top: 0.35rem;
-}
-
 .footer-wrap a,
 .footer-wrap a:visited {
   color: #fff;
