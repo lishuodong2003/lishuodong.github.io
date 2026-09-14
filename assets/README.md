@@ -1,7 +1,5 @@
-# ./assets/README.md
+# Assets
 
-Modifying this code is NOT recommended unless you are a pro.
-
-Thank you for supporting my work! Please feel free to contact me if you need help.
-
-- My email: lancecai2002@gmail.com
+The site loads the original compiled theme from `css/main.css` and the
+personalized responsive layer from `css/custom.css`. Images used by the active
+site are stored in `images/`.

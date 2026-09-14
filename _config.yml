@@ -1,88 +1,41 @@
-# --------------------------------------------------
-#  BASIC SITE INFO
-# --------------------------------------------------
-title: Hanlin Cai   # Main site title (appears in browser tab & RSS)
-tagline: Here is personal website of Hanlin Cai. Powered by Jekyll, based on the Minimal Mistakes theme.  # Optional short tagline, used by some layouts
-description: Here is personal website of Hanlin Cai, PhD Student at the University of Cambridge.  # Strongly recommended for SEO & social cards
+# Site identity
+title: Lishuo Dong
+tagline: Computational Mathematics
+description: Personal academic homepage of Lishuo Dong, a graduate student in computational mathematics.
+lang: en
 
-# TIP ── For local development you can comment out `url`
-# and build with relative paths. In production you want this set.
-url: https://caihanlin.com
+# This repository is currently a project site under lishuodong2003.github.io.
+# If it is renamed to lishuodong2003.github.io, set baseurl to "".
+url: https://lishuodong2003.github.io
+baseurl: /lishuodong.github.io
+repository: lishuodong2003/lishuodong.github.io
 
-# --------------------------------------------------
-#  AUTHOR / PROFILE DATA
-# --------------------------------------------------
 owner:
-  name: Hanlin Cai
-  avatar: cam_logo.png   # 剑桥校徽（正方形）
-  # bio: Dream big, stay positive, work hard, and enjoy the journey.
-  email: hc663@cam.ac.uk
-  # cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
+  name: Lishuo Dong
+  name_zh: 董立硕
+  avatar: /assets/images/profile.png
+  bio: Graduate student in Computational Mathematics
+  bio_zh: 计算数学硕士研究生
+  affiliation: Nanjing University of Science and Technology
+  affiliation_zh: 南京理工大学
+  email: 1745216598@qq.com
+  github: lishuodong2003
 
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: lancecai2002
-  github: GuangLun2000
-  linkedin: hanlincai
-  scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
-  researchgate: https://www.researchgate.net/profile/Hanlin-Cai
-  zhihu: https://www.zhihu.com/people/chlire
-  xiaohongshu: 5c27848f0000000005030c6f
-  instagram: lancecai2002
-  bilibili: 594030035
-  # facebook: caihanlin2002
-  # lastfm:
-  # tumblr:
-
-
-# --------------------------------------------------
-#  SEARCH-ENGINE VERIFICATION & ANALYTICS
-# --------------------------------------------------
-google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
-# bing_verify: ""    # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-google_analytics: "G-T5N5JY1E21"                                 # GA-4 measurement ID (used by _includes/gtag.html)
-
-
-# --------------------------------------------------
-#  TOP NAVIGATION BAR
-#  `external: true` opens the link in a new tab.
-# --------------------------------------------------
 links:
-  - title: Main
+  - title: Home
     url: /
-  - title: Publications
-    url: /publications/
-  - title: Services
-    url: /services/
-  - title: Awards
-    url: /awards/
-  - title: Hobbies
-    url: /hobbies/
-  - title: Blogs
-    url: /blogs/
+  - title: Research
+    url: /research/
+  - title: Honors
+    url: /honors/
   - title: 中文
     url: /cn/
-  # - title: AI4Wellbening
-    # url: https://ai4wellbeing.github.io/
 
-# --------------------------------------------------
-#  BUILD & RENDERING OPTIONS
-# --------------------------------------------------
-timezone: Asia/Shanghai          # IANA time-zone ID (China/Beijing is invalid)
-future: true                     # Render posts dated in the future
-highlighter: rouge               # Code highlighter; Rouge is default in MM
-# markdown: kramdown             # Jekyll default; uncomment to force
-# pygments: true                 # Legacy option (Rouge supersedes this)
+timezone: Asia/Shanghai
+future: true
+highlighter: rouge
+permalink: /:categories/:title/
 
-
-# --------------------------------------------------
-#  PERMALINK STRUCTURE
-# --------------------------------------------------
-permalink: /:categories/:title    # e.g. /tech/my-post/
-
-
-# --------------------------------------------------
-#  KRAMDOWN (Markdown engine) SETTINGS
-# --------------------------------------------------
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -90,48 +43,35 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-  # coderay:
-  #   coderay_line_numbers:
-  #   coderay_line_numbers_start: 1
-  #   coderay_tab_width: 4
-  #   coderay_bold_every: 10
-  #   coderay_css: class
-
-
-# --------------------------------------------------
-#  DISQUS COMMENT SYSTEM
-# --------------------------------------------------
-disqus:
-  shortname: lancecai
-
-
-# include: [".htaccess"]
-# exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
-
-# --------------------------------------------------
-#  INCLUDE / EXCLUDE Lists
-# --------------------------------------------------
-include: [".htaccess"]           # Files to force-include in the build
-exclude:                         # Folders/files ignored during build
-  - "backup"                     # Old drafts & duplicate permalinks; do not publish (no static assets here — use /images/ or site root)
-  - "lib"
-  - "config.rb"
-  - "Capfile"
-  - "config"
-  - "log"
-  - "Rakefile"
-  - "Rakefile.rb"
-  - "tmp"
-  - "less"
-  - "minimal-mistakes.sublime-project"
-  - "minimal-mistakes.sublime-workspace"
-
-
-# --------------------------------------------------
-#  OPTIONAL PLUG-INS (uncomment once gems are added)
-# --------------------------------------------------
 plugins:
-  - jekyll-feed          # Auto-generate RSS feed
-  - jekyll-sitemap       # Auto-generate sitemap.xml
-#   - jekyll-picture-tag   # Responsive images & WebP/AVIF
-  # - jekyll-archives      # Year/month archive pages
+  - jekyll-feed
+  - jekyll-sitemap
+
+# The upstream template ships with its author's articles and media. They remain
+# in the repository for reference but are deliberately omitted from the site.
+exclude:
+  - backup
+  - blogs
+  - blogs.md
+  - hobbies.md
+  - services.md
+  - mypaper
+  - images
+  - caihanlin.jpg
+  - cam_logo.png
+  - CNAME
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - lib
+  - config.rb
+  - Capfile
+  - config
+  - log
+  - Rakefile
+  - Rakefile.rb
+  - tmp
+  - less
+  - minimal-mistakes.sublime-project
+  - minimal-mistakes.sublime-workspace

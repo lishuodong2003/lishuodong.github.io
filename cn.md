@@ -1,31 +1,88 @@
 ---
 layout: page
 permalink: /cn/index.html
-title: 蔡汉霖的个人主页
+title: 中文主页
+description: 董立硕的个人学术主页，研究兴趣包括数值逼近、无网格算法与偏微分方程数值解。
+lang: zh-CN
 ---
 
-## 关于我
+<section class="hero-section">
+  <p class="eyebrow">计算数学 · Computational Mathematics</p>
+  <h1>你好，我是董立硕。</h1>
+  <p class="lede">我目前在南京理工大学攻读计算数学方向的硕士研究生，关注如何将数学理论转化为可靠、有效的数值方法。</p>
+  <div class="hero-actions">
+    <a class="button button-primary" href="mailto:{{ site.owner.email }}">邮件联系</a>
+    <a class="button button-secondary" href="https://github.com/{{ site.owner.github }}" target="_blank" rel="noreferrer">访问 GitHub</a>
+  </div>
+</section>
 
-<img src="{{ "/caihanlin.jpg" | relative_url }}" class="floatpic" alt="蔡汉霖">
+<section class="content-section" aria-labelledby="cn-about-heading">
+  <div class="section-heading">
+    <p class="section-number">01</p>
+    <h2 id="cn-about-heading">关于我</h2>
+  </div>
+  <p>我目前的研究方向是计算数学。本科就读于安徽大学数学与应用数学专业。我的兴趣主要位于逼近论、科学计算与偏微分方程数值解的交叉地带。</p>
+</section>
 
-<br>感谢您的阅读。我是**蔡汉霖**，福建泉州人 (2002)。国家公派学者。
+<section class="content-section" aria-labelledby="cn-research-heading">
+  <div class="section-heading">
+    <p class="section-number">02</p>
+    <h2 id="cn-research-heading">研究兴趣</h2>
+  </div>
+  <div class="interest-grid">
+    <article class="interest-card">
+      <span class="card-index">A</span>
+      <h3>数值逼近</h3>
+      <p>探索连接严格数学分析与实际计算问题的逼近方法。</p>
+    </article>
+    <article class="interest-card">
+      <span class="card-index">B</span>
+      <h3>无网格算法</h3>
+      <p>研究不依赖预设计算网格的灵活离散方法。</p>
+    </article>
+    <article class="interest-card">
+      <span class="card-index">C</span>
+      <h3>偏微分方程数值解</h3>
+      <p>关注偏微分方程稳定、高效的数值求解方法。</p>
+    </article>
+  </div>
+</section>
 
-<br>我在剑桥大学工程系“万物互联”课题组获得硕士学位，师从**Ozgur B. Akan**院士与**Jon Crowcroft**院士。我的研究方向为：6G通信、边缘智能，以及分布式AI大模型。
+<section class="content-section" aria-labelledby="cn-education-heading">
+  <div class="section-heading">
+    <p class="section-number">03</p>
+    <h2 id="cn-education-heading">教育经历</h2>
+  </div>
+  <div class="timeline">
+    <article class="timeline-item">
+      <p class="timeline-date">2025 — 至今</p>
+      <h3>计算数学 · 硕士研究生</h3>
+      <p>南京理工大学</p>
+    </article>
+    <article class="timeline-item">
+      <p class="timeline-date">2021 — 2025</p>
+      <h3>数学与应用数学 · 本科</h3>
+      <p>安徽大学</p>
+    </article>
+  </div>
+</section>
 
-<br>我是[剑桥大学可信人工智能研究协会（官方注册协会）](https://ai4wellbeing.github.io/)的创始人，英国伊灵顿公学LTD的国际合作负责人。2026-2027年期间，我担任剑桥大学华人赛艇协会副主席，[华为英国](https://huaweiuk.teamtailor.com/)校园大使。目前，我高度关注创业机会，主要关注“AI科技产品创业”，以及“中英高校国际交流”两个业务方向。2026年夏天，我的团队在剑桥落地了两场百人规模的国际高校交流项目。我们也正在积极地扩展新伙伴与合作机会，欢迎联系！
+<section class="content-section" aria-labelledby="cn-honors-heading">
+  <div class="section-heading">
+    <p class="section-number">04</p>
+    <h2 id="cn-honors-heading">荣誉与奖励</h2>
+  </div>
+  <ul class="highlight-list">
+    <li><span>2025</span> 校级优秀毕业生</li>
+    <li><span>2024</span> 国元奖学金</li>
+    <li><span>2023</span> 全国大学生数学建模竞赛安徽赛区本科组省三等奖</li>
+    <li><span>2023</span> 校级学习优秀二等奖学金</li>
+    <li><span>2022</span> 校级学习优秀一等奖学金</li>
+  </ul>
+</section>
 
-<br>2025年10月起，我在剑桥大学继续攻读博士学位。我的博士研究获得剑桥信托基金、中国国家留学基金，以及剑桥沃夫森学院的联合资助。我将于2028年12月博士毕业，并计划尽早回国寻找教职或工业界的机会。如您有招聘需求或是相关信息，感谢您随时与我取得联系（微信：**lancecai2002**，烦请备注来意，谢谢）。
-
-<br>2024年6月，我在爱尔兰国立大学和中国福州大学的联合培养下取得了本科双学位，包括机器人理学学士和自动化工学学士。2023年至2024年，我在福建省“工业自动化控制技术与信息处理”重点实验室担任科研助理，期间在徐哲壮教授和袁蒙教授的指导下进行早期科研训练。我的研究获得了国家级本科生科研训练计划、福建省能化集团和厦航奖学金的慷慨支持。本科毕业前，我获得了人工智能领域顶级会议[AAAI 2024](https://aaai.org/conference/aaai/aaai-24/)所评选的**“杰出本科生奖学金”**，该奖项每年在全球范围内仅遴选15名优秀学生。
-
-<br>最后，若您有任何需要我协助的事项，或者您愿意向我分享您的宝贵建议，我都非常欢迎交流与合作。您可以通过邮箱 **hc663[at]cam.ac.uk** 与我联系，或通过微信 **lancecai2002** 添加我**（请务必标注姓名、单位或来意，以便通过申请，非常感谢！）**
-
-<br>
-
-> 最后，分享我最喜欢的一首诗，是南宋朱熹的《观书有感》其一
->
-> “半亩方塘一鉴开，天光云影共徘徊。
->
-> 问渠那得清如许，为有源头活水来。”
-
-<br>
+<section class="contact-panel" aria-labelledby="cn-contact-heading">
+  <p class="eyebrow">保持联系</p>
+  <h2 id="cn-contact-heading">欢迎交流数值计算、数学学习与研究想法。</h2>
+  <a class="text-link" href="mailto:{{ site.owner.email }}">{{ site.owner.email }} <span aria-hidden="true">↗</span></a>
+</section>

@@ -1,37 +1,30 @@
-<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="University of Cambridge">
-
-<!-- <h4>{{ site.owner.name }}</h4> -->
-
-<p>{{ site.owner.bio }}</p>
-
-{% if site.owner.email %}<p style="text-indent:0;margin-top:1.5em;"><a href="mailto:{{ site.owner.email }}" target="_blank"><i class="icon-mail"></i> Email</a></p>{% endif %}
-
-{% if site.owner.cv %}<p style="text-indent:0;"><a href="{{ site.owner.cv }}"><img src="https://caihanlin.com/images/logo/icons8-cv-100.png" width="17" height="17"></i> My CV</a></p>{% endif %}
-
-{% if site.owner.twitter %}<p style="text-indent:0;"><a href="https://twitter.com/{{ site.owner.twitter }}"><i class="icon-twitter"></i> Twitter</a></p>{% endif %}
-
-{% if site.owner.facebook %}<p style="text-indent:0;"><a href="https://facebook.com/{{ site.owner.facebook }}"><i class="icon-facebook"></i> Facebook</a></p>{% endif %}
-
-{% if site.owner.google_plus %}<p style="text-indent:0;"><a href="{{ site.owner.google_plus }}"><i class="icon-google-plus"></i> Google+</a></p>{% endif %}
-
-{% if site.owner.linkedin %}<p style="text-indent:0;"><a href="https://linkedin.com/in/{{ site.owner.linkedin }}"><i class="icon-linkedin"></i> LinkedIn</a></p>{% endif %}
-
-{% if site.owner.instagram %}<p style="text-indent:0;"><a href="https://instagram.com/{{ site.owner.instagram }}"><i class="icon-instagram"></i> Instagram</a></p>{% endif %}
-
-{% if site.owner.github %}<p style="text-indent:0;"><a href="https://github.com/{{ site.owner.github }}"><i class="icon-github"></i> Github</a></p>{% endif %}
-
-{% if site.owner.lastfm %}<p style="text-indent:0;"><a href="https://lastfm.com/{{ site.owner.lastfm }}"><i class="icon-lastfm"></i> Last.fm</a></p>{% endif %}
-
-{% if site.owner.tumblr %}<p style="text-indent:0;"><a href="https://{{ site.owner.tumblr }}.tumblr.com"><i class="icon-tumblr"></i> Tumblr</a></p>{% endif %}
-
-{% if site.owner.scholar %}<p style="text-indent:0;"><a href="{{ site.owner.scholar }}"><i class="ai ai-google-scholar-square"></i> Google Scholar</a></p>{% endif %}
-
-{% if site.owner.researchgate %}<p style="text-indent:0;"><a href="{{ site.owner.researchgate }}"><img src="https://caihanlin.com/images/logo/icons8-rg.png" width="13.2" height="13.2"></i> ResearchGate</a></p>{% endif %}
-
-{% if site.owner.zhihu %}<p style="text-indent:0;"><a href="{{ site.owner.zhihu }}"><img src="https://caihanlin.com/images/logo/icons8-zhihu-96.png" width="16.8" height="16.8"></i> Zhihu</a></p>{% endif %}
-
-{% if site.owner.xiaohongshu %}<p style="text-indent:0;"><a href="https://www.xiaohongshu.com/user/profile/{{site.owner.xiaohongshu}}"><img src="https://caihanlin.com/images/logo/xiaohongshu.png" width="14.6" height="14.6"></i> RedNote</a></p>{% endif %}
-
-{% if site.owner.bilibili %}<p style="text-indent:0;"><a href="https://space.bilibili.com/{{ site.owner.bilibili }}"><img src="https://caihanlin.com/images/logo/icons8-retro-tv-100.png" width="14.5" height="14.5"></i> Bilibili</a></p>{% endif %}
-
-<!-- Lastly modified by Hanlin CAI in 2023/10/15 -->
+<aside class="profile-card" aria-label="Profile">
+  <img src="{{ site.owner.avatar | relative_url }}" class="bio-photo" alt="Portrait of {{ site.owner.name }}">
+  <div class="profile-copy">
+    {% if page.lang == 'zh-CN' %}
+      <h2>{{ site.owner.name_zh }}</h2>
+      <p class="profile-name-zh">{{ site.owner.name }}</p>
+      <p class="profile-role">{{ site.owner.bio_zh }}</p>
+      <p class="profile-affiliation">{{ site.owner.affiliation_zh }}</p>
+    {% else %}
+      <h2>{{ site.owner.name }}</h2>
+      <p class="profile-name-zh">{{ site.owner.name_zh }}</p>
+      <p class="profile-role">{{ site.owner.bio }}</p>
+      <p class="profile-affiliation">{{ site.owner.affiliation }}</p>
+    {% endif %}
+  </div>
+  <div class="profile-links">
+    {% if site.owner.email %}
+      <a href="mailto:{{ site.owner.email }}">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3V5Zm2 2v.5l7 5.25L19 7.5V7H5Zm14 10V10l-7 5.25L5 10v7h14Z"/></svg>
+        <span>Email</span>
+      </a>
+    {% endif %}
+    {% if site.owner.github %}
+      <a href="https://github.com/{{ site.owner.github }}" target="_blank" rel="noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .7a11.5 11.5 0 0 0-3.64 22.4c.58.1.79-.25.79-.56v-2.22c-3.23.7-3.91-1.37-3.91-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.72 1.27 3.39.97.1-.75.4-1.27.74-1.56-2.58-.29-5.29-1.29-5.29-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.47.11-3.05 0 0 .97-.31 3.16 1.18A10.98 10.98 0 0 1 12 6.12c.98 0 1.95.13 2.87.39 2.2-1.49 3.16-1.18 3.16-1.18.63 1.58.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.4-2.72 5.38-5.3 5.67.42.36.79 1.07.79 2.16v3.24c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .7Z"/></svg>
+        <span>GitHub</span>
+      </a>
+    {% endif %}
+  </div>
+</aside>

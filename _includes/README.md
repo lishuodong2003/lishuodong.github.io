@@ -1,7 +1,4 @@
-# ./_includes/README.md
+# Includes
 
-Modifying this code is NOT recommended unless you are a pro.
-
-Thank you for supporting my work! Please feel free to contact me if you need help.
-
-- My email: lancecai2002@gmail.com
+Reusable navigation, metadata, profile, footer, and script fragments live here.
+Personal details are read from `_config.yml`.

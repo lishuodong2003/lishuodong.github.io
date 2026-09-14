@@ -1,37 +1,87 @@
 ---
 layout: page
+title: Home
+description: Lishuo Dong is a graduate student working in computational mathematics, numerical approximation, meshless methods, and numerical PDEs.
 ---
 
-## About Me
+<section class="hero-section">
+  <p class="eyebrow">Computational Mathematics</p>
+  <h1>Hello, I’m Lishuo.</h1>
+  <p class="lede">I am a graduate student in the Department of Mathematics at Nanjing University of Science and Technology. I enjoy turning mathematical ideas into reliable numerical methods.</p>
+  <div class="hero-actions">
+    <a class="button button-primary" href="mailto:{{ site.owner.email }}">Email me</a>
+    <a class="button button-secondary" href="https://github.com/{{ site.owner.github }}" target="_blank" rel="noreferrer">View GitHub</a>
+  </div>
+</section>
 
-<img src="{{ "/caihanlin.jpg" | relative_url }}" class="floatpic" alt="Hanlin Cai">
+<section class="content-section" aria-labelledby="about-heading">
+  <div class="section-heading">
+    <p class="section-number">01</p>
+    <h2 id="about-heading">About me</h2>
+  </div>
+  <p>I am currently pursuing graduate study in computational mathematics. Before that, I studied Mathematics and Applied Mathematics at Anhui University. My interests sit at the intersection of approximation theory, scientific computing, and partial differential equations.</p>
+</section>
 
-<br>Here is **Hanlin Cai** (Lance, 蔡汉霖). I am the founder of the [Cambridge AI for Wellbeing Soceity](https://ai4wellbeing.github.io/).
+<section class="content-section" aria-labelledby="interests-heading">
+  <div class="section-heading">
+    <p class="section-number">02</p>
+    <h2 id="interests-heading">Research interests</h2>
+  </div>
+  <div class="interest-grid">
+    <article class="interest-card">
+      <span class="card-index">A</span>
+      <h3>Numerical approximation</h3>
+      <p>Approximation techniques that connect rigorous analysis with practical computation.</p>
+    </article>
+    <article class="interest-card">
+      <span class="card-index">B</span>
+      <h3>Meshless methods</h3>
+      <p>Flexible discretization strategies that do not depend on a predefined computational mesh.</p>
+    </article>
+    <article class="interest-card">
+      <span class="card-index">C</span>
+      <h3>Numerical PDEs</h3>
+      <p>Stable and effective numerical solutions for partial differential equations.</p>
+    </article>
+  </div>
+  <p class="section-link"><a href="{{ '/research/' | relative_url }}">Explore my research profile <span aria-hidden="true">→</span></a></p>
+</section>
 
-<br>I am a first-year PhD student at the [Centre for neXt Communications](https://oba.eco/people/) at the **University of Cambridge**, where I am fortunate to be supervised by [Ozgur B. Akan](https://oba.eco/), and advised by [Jon Crowcroft](https://www.cst.cam.ac.uk/people/jac22) and [Kai Li](https://sites.google.com/site/lukasunsw/Home).
+<section class="content-section" aria-labelledby="education-heading">
+  <div class="section-heading">
+    <p class="section-number">03</p>
+    <h2 id="education-heading">Education</h2>
+  </div>
+  <div class="timeline">
+    <article class="timeline-item">
+      <p class="timeline-date">2025 — Present</p>
+      <h3>Graduate study in Computational Mathematics</h3>
+      <p>Nanjing University of Science and Technology</p>
+    </article>
+    <article class="timeline-item">
+      <p class="timeline-date">2021 — 2025</p>
+      <h3>Mathematics and Applied Mathematics</h3>
+      <p>Anhui University</p>
+    </article>
+  </div>
+</section>
 
-<br>My research is supported by the [Cambridge Trust](https://www.cambridgetrust.org/), [China Scholarship Council](https://www.student-funding.cam.ac.uk/fund/csc-cambridge-scholarship-2024) and [Wolfson College](https://www.wolfson.cam.ac.uk/). Previously, I was very pleased to undertake summer research with [Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) in the [Artificial Intelligence Group](https://www.cl.cam.ac.uk/research/ai/).
+<section class="content-section" aria-labelledby="honors-heading">
+  <div class="section-heading">
+    <p class="section-number">04</p>
+    <h2 id="honors-heading">Selected honors</h2>
+  </div>
+  <ul class="highlight-list">
+    <li><span>2025</span> Outstanding Graduate at the university level</li>
+    <li><span>2024</span> Guoyuan Scholarship</li>
+    <li><span>2023</span> Third Prize, Anhui Division of the National College Student Mathematical Modeling Competition</li>
+  </ul>
+  <p class="section-link"><a href="{{ '/honors/' | relative_url }}">See all honors <span aria-hidden="true">→</span></a></p>
+</section>
 
-<br>Prior to joining Cambridge, I worked on wireless networks and cybersecurity with [Zhezhuang Xu](https://scholar.google.com.hk/citations?user=iZ7LQRkAAAAJ&hl=zh-CN) and [Meng Yuan](https://myuan27.github.io/). During this period, I was honored to be selected as an outstanding undergraduate scholar at leading AI conferences, including AAAI 2024 and KDD 2024.
-
-<br>I am always open to academic discussions and potential collaborations. Please feel free to reach out to me at **hc663 [at] cam.ac.uk** (or my WeChat account is **lancecai2002**).
-
----
-
-## Research Interests
-
-- Edge AI System
-- Distributed ML
-- Attack, Defense, Resilience
-
-
----
-
-## News and Updates
-
-- **July 2026：**I founded the [Cambridge AI for Wellbeing Society](https://ai4wellbeing.github.io/), an officially registered society at Cambridge.
-- **Nov 2025**：Excited to receive an Honorary Mention Award in the 2025 IEEE ComSoc Student Competition.
-- **May 2025**：Delighted to be awarded the Cambridge Trust Scholarship and CSC Scholarship!
-- **June 2024**：Very excited to be selected as [KDD UC Scholar](https://kdd2024.kdd.org/undergraduate-consortium/). See you in Spain!
-- **April 2024：**Our work *BLEGuard* has been accepted to [MobiSys 2024](https://www.sigmobile.org/mobisys/2024/) as a poster paper. See you in Japan!
-- **Dec 2023：**Very excited to be selected as [AAAI UC Scholar](https://aaai.org/aaai-conference/undergraduate-consortium-program/). See you in Canada!
+<section class="contact-panel" aria-labelledby="contact-heading">
+  <p class="eyebrow">Let’s connect</p>
+  <h2 id="contact-heading">Questions, ideas, or a shared interest in numerical mathematics?</h2>
+  <p>I am happy to hear from fellow students and researchers.</p>
+  <a class="text-link" href="mailto:{{ site.owner.email }}">{{ site.owner.email }} <span aria-hidden="true">↗</span></a>
+</section>
