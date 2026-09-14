@@ -3,9 +3,6 @@
 
 <head>
 {% include head.html %}
-
-{% include gtag.html %}
-
 </head>
 
 
@@ -13,13 +10,7 @@
 
 <div class="page-wrapper">
 
-{% include chrome-frame.html %}
-
 {% include navigation.html %}
-
-{% if page.image.feature %}<div class="image-wrap">
-  <img src="{{ page.image.feature | prepend: '/images/' | relative_url }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
-</div><!-- /.image-wrap -->{% endif %}
 
 <main id="main" itemprop="mainContentOfPage">
   <div class="article-author-top">
@@ -39,8 +30,6 @@
     {% include footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->
-
-{% include scripts.html %}
 
 </body>
 </html>

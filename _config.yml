@@ -47,31 +47,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# The upstream template ships with its author's articles and media. They remain
-# in the repository for reference but are deliberately omitted from the site.
+# Files used for local development but not published by Jekyll.
 exclude:
-  - backup
-  - blogs
-  - blogs.md
-  - hobbies.md
-  - services.md
-  - mypaper
-  - images
-  - caihanlin.jpg
-  - cam_logo.png
-  - CNAME
   - README.md
   - Gemfile
   - Gemfile.lock
   - vendor
-  - lib
-  - config.rb
-  - Capfile
-  - config
-  - log
-  - Rakefile
-  - Rakefile.rb
-  - tmp
-  - less
-  - minimal-mistakes.sublime-project
-  - minimal-mistakes.sublime-workspace
