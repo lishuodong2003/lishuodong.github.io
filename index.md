@@ -46,7 +46,6 @@ description: Lishuo Dong is a graduate student working in computational mathemat
   </div>
   <p class="section-link"><a href="{{ '/research/' | relative_url }}">Explore my research profile <span aria-hidden="true">→</span></a></p>
 </section>
-
 <section class="content-section" aria-labelledby="preprints-heading">
   <div class="section-heading">
     <p class="section-number">03</p>
@@ -65,13 +64,14 @@ description: Lishuo Dong is a graduate student working in computational mathemat
       <p class="publication-year">2026</p>
       <div>
         <h3><a href="https://arxiv.org/abs/2608.04313">Error estimates for vector field interpolation based on generalized matrix-valued kernels</a></h3>
-        <p>Zhengjie Sun, <strong>Lishuo Dong</strong>, Leevan Ling.</p>
+        <p>Zhengjie Sun, <strong>Lishuo Dong*</strong>, Leevan Ling.</p>
         <p class="publication-meta">Preprint · <a href="https://arxiv.org/abs/2608.04313">arXiv:2608.04313</a> [math.NA]</p>
       </div>
     </article>
   </div>
   <p class="section-link"><a href="{{ '/research/' | relative_url }}">View all preprints <span aria-hidden="true">→</span></a></p>
 </section>
+
 
 <section class="content-section" aria-labelledby="education-heading">
   <div class="section-heading">

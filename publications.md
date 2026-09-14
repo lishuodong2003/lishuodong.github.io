@@ -30,7 +30,6 @@ description: Research interests and academic profile of Lishuo Dong.
     </article>
   </div>
 </section>
-
 <section class="content-section">
   <div class="section-heading">
     <p class="section-number">04</p>
@@ -49,9 +48,10 @@ description: Research interests and academic profile of Lishuo Dong.
       <p class="publication-year">2026</p>
       <div>
         <h3><a href="https://arxiv.org/abs/2608.04313">Error estimates for vector field interpolation based on generalized matrix-valued kernels</a></h3>
-        <p>Zhengjie Sun, <strong>Lishuo Dong</strong>, Leevan Ling.</p>
+        <p>Zhengjie Sun, <strong>Lishuo Dong*</strong>, Leevan Ling.</p>
         <p class="publication-meta">Preprint · <a href="https://arxiv.org/abs/2608.04313">arXiv:2608.04313</a> [math.NA]</p>
       </div>
     </article>
   </div>
 </section>
+
