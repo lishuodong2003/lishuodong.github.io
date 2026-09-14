@@ -359,6 +359,10 @@ button:focus-visible {
   letter-spacing: -0.045em;
 }
 
+.hero-section h1 {
+  font-size: clamp(2.45rem, 6.3vw, 4.65rem);
+}
+
 .page-intro h1 {
   max-width: 13ch;
   font-size: clamp(2.5rem, 6vw, 4.6rem);
@@ -579,6 +583,32 @@ button:focus-visible {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.76rem;
   font-weight: 750;
+}
+
+.contact-panel {
+  margin-top: clamp(3.5rem, 7vw, 5.5rem);
+  padding: clamp(1.65rem, 4vw, 2.6rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: #e5e7df;
+}
+
+.contact-panel h2 {
+  max-width: 27ch;
+  margin: 0 0 0.8rem;
+  font-size: clamp(1.45rem, 3.4vw, 2.2rem);
+}
+
+#main .contact-panel > p:not(.eyebrow) {
+  margin-bottom: 0.85rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.contact-panel .text-link {
+  display: inline-block;
+  margin-top: 0.1rem;
+  font-size: 0.82rem;
 }
 
 /* Research and honors */
@@ -817,6 +847,10 @@ button:focus-visible {
   .hero-section h1,
   .page-intro h1 {
     font-size: clamp(2.45rem, 13vw, 3.5rem);
+  }
+
+  .hero-section h1 {
+    font-size: clamp(2.2rem, 11.5vw, 3.1rem);
   }
 
   .interest-grid {

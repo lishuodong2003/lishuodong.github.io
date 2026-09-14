@@ -48,9 +48,35 @@ lang: zh-CN
   </div>
 </section>
 
-<section class="content-section" aria-labelledby="cn-education-heading">
+<section class="content-section" aria-labelledby="cn-preprints-heading">
   <div class="section-heading">
     <p class="section-number">03</p>
+    <h2 id="cn-preprints-heading">近期预印本</h2>
+  </div>
+  <div class="publication-list">
+    <article class="publication-item">
+      <p class="publication-year">2026</p>
+      <div>
+        <h3><a href="https://arxiv.org/abs/2608.05547">Divergence-free interpolation of tangential vector fields via matrix-valued kernels</a></h3>
+        <p>Zhengjie Sun，<strong>董立硕</strong>，Biao Huang。</p>
+        <p class="publication-meta">预印本 · <a href="https://arxiv.org/abs/2608.05547">arXiv:2608.05547</a> [math.NA]</p>
+      </div>
+    </article>
+    <article class="publication-item">
+      <p class="publication-year">2026</p>
+      <div>
+        <h3><a href="https://arxiv.org/abs/2608.04313">Error estimates for vector field interpolation based on generalized matrix-valued kernels</a></h3>
+        <p>Zhengjie Sun，<strong>董立硕</strong>，Leevan Ling。</p>
+        <p class="publication-meta">预印本 · <a href="https://arxiv.org/abs/2608.04313">arXiv:2608.04313</a> [math.NA]</p>
+      </div>
+    </article>
+  </div>
+  <p class="section-link"><a href="{{ '/research/' | relative_url }}">查看全部论文 <span aria-hidden="true">→</span></a></p>
+</section>
+
+<section class="content-section" aria-labelledby="cn-education-heading">
+  <div class="section-heading">
+    <p class="section-number">04</p>
     <h2 id="cn-education-heading">教育经历</h2>
   </div>
   <div class="timeline">
@@ -69,10 +95,12 @@ lang: zh-CN
 
 <section class="content-section" aria-labelledby="cn-honors-heading">
   <div class="section-heading">
-    <p class="section-number">04</p>
+    <p class="section-number">05</p>
     <h2 id="cn-honors-heading">荣誉与奖励</h2>
   </div>
   <ul class="highlight-list">
+    <li><span>2026</span> 江苏省研究生系统建模与数据分析创新论坛现场汇报一等奖</li>
+    <li><span>2025</span> 硕士研究生学业奖学金一等奖</li>
     <li><span>2025</span> 校级优秀毕业生</li>
     <li><span>2024</span> 国元奖学金</li>
     <li><span>2023</span> 全国大学生数学建模竞赛安徽赛区本科组省三等奖</li>
@@ -82,7 +110,8 @@ lang: zh-CN
 </section>
 
 <section class="contact-panel" aria-labelledby="cn-contact-heading">
-  <p class="eyebrow">保持联系</p>
+  <p class="eyebrow">联系</p>
   <h2 id="cn-contact-heading">欢迎交流数值计算、数学学习与研究想法。</h2>
+  <p>如有合作、讨论或交流想法，欢迎通过邮件联系我。</p>
   <a class="text-link" href="mailto:{{ site.owner.email }}">{{ site.owner.email }} <span aria-hidden="true">↗</span></a>
 </section>

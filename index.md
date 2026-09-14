@@ -106,3 +106,10 @@ description: Lishuo Dong is a graduate student working in computational mathemat
   </ul>
   <p class="section-link"><a href="{{ '/honors/' | relative_url }}">See all honors <span aria-hidden="true">→</span></a></p>
 </section>
+
+<section class="contact-panel" aria-labelledby="contact-heading">
+  <p class="eyebrow">Contact</p>
+  <h2 id="contact-heading">Let’s talk about numerical mathematics.</h2>
+  <p>I welcome conversations about research, numerical computing, and mathematical ideas.</p>
+  <a class="text-link" href="mailto:{{ site.owner.email }}">{{ site.owner.email }} <span aria-hidden="true">↗</span></a>
+</section>
