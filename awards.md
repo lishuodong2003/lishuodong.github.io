@@ -14,6 +14,20 @@ description: Scholarships, awards, and academic honors received by Lishuo Dong.
 <section class="content-section">
   <div class="honors-list">
     <article class="honor-item">
+      <p class="honor-year">2026</p>
+      <div>
+        <h2>Jiangsu Graduate Student System Modeling and Data Analysis Innovation Forum</h2>
+        <p>First Prize, on-site presentation</p>
+      </div>
+    </article>
+    <article class="honor-item">
+      <p class="honor-year">2025</p>
+      <div>
+        <h2>Master's Academic Scholarship</h2>
+        <p>First Prize</p>
+      </div>
+    </article>
+    <article class="honor-item">
       <p class="honor-year">2025</p>
       <div>
         <h2>Outstanding Graduate</h2>

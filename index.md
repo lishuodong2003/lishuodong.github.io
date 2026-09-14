@@ -47,9 +47,35 @@ description: Lishuo Dong is a graduate student working in computational mathemat
   <p class="section-link"><a href="{{ '/research/' | relative_url }}">Explore my research profile <span aria-hidden="true">→</span></a></p>
 </section>
 
-<section class="content-section" aria-labelledby="education-heading">
+<section class="content-section" aria-labelledby="preprints-heading">
   <div class="section-heading">
     <p class="section-number">03</p>
+    <h2 id="preprints-heading">Recent preprints</h2>
+  </div>
+  <div class="publication-list">
+    <article class="publication-item">
+      <p class="publication-year">2026</p>
+      <div>
+        <h3><a href="https://arxiv.org/abs/2608.05547">Divergence-free interpolation of tangential vector fields via matrix-valued kernels</a></h3>
+        <p>Zhengjie Sun, <strong>Lishuo Dong</strong>, Biao Huang.</p>
+        <p class="publication-meta">Preprint · <a href="https://arxiv.org/abs/2608.05547">arXiv:2608.05547</a> [math.NA]</p>
+      </div>
+    </article>
+    <article class="publication-item">
+      <p class="publication-year">2026</p>
+      <div>
+        <h3><a href="https://arxiv.org/abs/2608.04313">Error estimates for vector field interpolation based on generalized matrix-valued kernels</a></h3>
+        <p>Zhengjie Sun, <strong>Lishuo Dong</strong>, Leevan Ling.</p>
+        <p class="publication-meta">Preprint · <a href="https://arxiv.org/abs/2608.04313">arXiv:2608.04313</a> [math.NA]</p>
+      </div>
+    </article>
+  </div>
+  <p class="section-link"><a href="{{ '/research/' | relative_url }}">View all preprints <span aria-hidden="true">→</span></a></p>
+</section>
+
+<section class="content-section" aria-labelledby="education-heading">
+  <div class="section-heading">
+    <p class="section-number">04</p>
     <h2 id="education-heading">Education</h2>
   </div>
   <div class="timeline">
@@ -68,20 +94,15 @@ description: Lishuo Dong is a graduate student working in computational mathemat
 
 <section class="content-section" aria-labelledby="honors-heading">
   <div class="section-heading">
-    <p class="section-number">04</p>
+    <p class="section-number">05</p>
     <h2 id="honors-heading">Selected honors</h2>
   </div>
   <ul class="highlight-list">
+    <li><span>2026</span> First Prize, On-site Presentation, Jiangsu Graduate Student System Modeling and Data Analysis Innovation Forum</li>
+    <li><span>2025</span> First Prize, Master's Academic Scholarship</li>
     <li><span>2025</span> Outstanding Graduate at the university level</li>
     <li><span>2024</span> Guoyuan Scholarship</li>
     <li><span>2023</span> Third Prize, Anhui Division of the National College Student Mathematical Modeling Competition</li>
   </ul>
   <p class="section-link"><a href="{{ '/honors/' | relative_url }}">See all honors <span aria-hidden="true">→</span></a></p>
-</section>
-
-<section class="contact-panel" aria-labelledby="contact-heading">
-  <p class="eyebrow">Let’s connect</p>
-  <h2 id="contact-heading">Questions, ideas, or a shared interest in numerical mathematics?</h2>
-  <p>I am happy to hear from fellow students and researchers.</p>
-  <a class="text-link" href="mailto:{{ site.owner.email }}">{{ site.owner.email }} <span aria-hidden="true">↗</span></a>
 </section>
